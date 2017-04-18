@@ -23,4 +23,4 @@ DEVICE_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay
 # Include package config fragments
 include $(LOCAL_PATH)/product/*.mk
 
-$(call inherit-product-if-exists, vendor/xiaomi/wt88047/wt88047-vendor.mk)
+$(call inherit-product, vendor/xiaomi/wt88047/wt88047-vendor.mk)

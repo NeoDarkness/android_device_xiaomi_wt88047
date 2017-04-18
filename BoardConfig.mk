@@ -23,4 +23,4 @@ include device/xiaomi/wt88047/board/*.mk
 TARGET_BOARD_INFO_FILE := device/xiaomi/wt88047/board-info.txt
 
 # inherit from the proprietary version
--include vendor/xiaomi/wt88047/BoardConfigVendor.mk
+include vendor/xiaomi/wt88047/BoardConfigVendor.mk
