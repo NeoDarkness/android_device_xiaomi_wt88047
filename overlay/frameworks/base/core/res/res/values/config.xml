@@ -114,7 +114,7 @@
             64 - Volume rocker
          For example, a device with Home, Back and Menu keys would set this
          config to 7. -->
-    <integer name="config_deviceHardwareWakeKeys">64</integer>
+    <!--<integer name="config_deviceHardwareWakeKeys">64</integer>-->
 
     <!-- Control the behavior when the user long presses the home button.
             0 - Nothing
@@ -138,7 +138,7 @@
          This needs to match the constants in
          services/core/java/com/android/server/policy/policy/impl/PhoneWindowManager.java
     -->
-    <integer name="config_longPressOnAppSwitchBehavior">1</integer>
+    <!--<integer name="config_longPressOnAppSwitchBehavior">1</integer>-->
 
     <!-- Control the behavior when the user double-taps the home button.
             0 - Nothing
@@ -158,11 +158,19 @@
     <!-- Is the battery LED intrusive? Used to decide if there should be a disable option -->
     <bool name="config_intrusiveBatteryLed">true</bool>
 
+    <!-- Does the notification LED support multiple colors?
+         Used to decide if the user can change the colors -->
+    <bool name="config_multiColorNotificationLed">true</bool>
+
+    <!-- Does the battery LED support multiple colors?
+         Used to decide if the user can change the colors -->
+    <bool name="config_multiColorBatteryLed">true</bool>
+
     <!-- Default color for notification LED is blue. -->
     <color name="config_defaultNotificationColor">#ff00ffff</color>
 
     <!-- Disable button brightness settings -->
-    <integer name="config_buttonBrightnessSettingDefault">0</integer>
+    <!--<integer name="config_buttonBrightnessSettingDefault">0</integer>-->
 
     <!-- Vibrator pattern for feedback about a long screen/key press -->
     <integer-array name="config_longPressVibePattern">
